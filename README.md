@@ -4,8 +4,9 @@ Software engineer transitioning into **smart contract security and Web3 tooling*
 
 **Background**
 
-- C++ camera and device development
-- C# desktop applications
+- **C++** — Camera pipelines and real-time 3D rendering (graphics math, performance-critical code, memory and edge-case handling)
+- **C#** — Desktop software for industrial machine-vision systems
+- The same engineering rigor — reliability, edge cases, low-level debugging — is what I'm bringing into smart contract security
 
 **Now focusing on**
 
