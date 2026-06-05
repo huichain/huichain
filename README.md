@@ -1,36 +1,41 @@
 ### Hi, I'm Hui Chan
 
-Software engineer transitioning into **smart contract security and Web3 tooling**.
+Software engineer transitioning into **smart contract security and Web3 tooling**, with public Foundry PoCs, audit-style writeups, and security tooling on GitHub.
 
 **Background**
 
-- **C++** — Camera pipelines and real-time 3D rendering (graphics math, performance-critical code, memory and edge-case handling)
-- **C#** — Desktop software for industrial machine-vision systems
-- The same engineering rigor — reliability, edge cases, low-level debugging — is what I'm bringing into smart contract security
+- **C++** — Camera/graphics pipelines where bugs are expensive (timing, memory, numerical edge cases)
+- **C#** — Machine-vision tooling where correctness and failure modes matter in production
+- **Current work** — Solidity security research: Foundry PoCs, patched implementations, and structured findings (see repos below)
 
-**Now focusing on**
+**Now building in public**
 
-- Reproducing real Solidity vulnerabilities with Foundry
-- Writing PoCs, fixes, and audit-style writeups
-- Building Web3 security tooling
+- Foundry vulnerability modules with exploit PoCs, fixes, and audit-style reports
+- Public repos: [smart-contract-security-lab](https://github.com/huichain/smart-contract-security-lab) and [contract-risk-scanner](https://github.com/huichain/contract-risk-scanner)
+- Current focus: oracle manipulation and expanding static-analysis rules
 
 ---
 
-#### Featured Project
+#### Featured Projects
 
-**[smart-contract-security-lab](https://github.com/huichain/smart-contract-security-lab)**
+**[smart-contract-security-lab](https://github.com/huichain/smart-contract-security-lab)**  
+Foundry-based vulnerability lab: exploit PoCs, fixes, and audit-style writeups.
 
-A growing Foundry-based lab of vulnerable contracts, attacker contracts, fixed implementations, and short writeups. Built day by day, in public.
+- **Done:** Reentrancy · Access Control · Signature Replay (`11` passing tests, `3` reports)
+- **In progress:** Oracle Manipulation (AMM spot-price manipulation PoC)
+- **Planned:** Upgradeable Proxy
 
-Live: a reentrancy attack drains a 10 ETH vault with **only 1 ETH** of attacker capital by re-entering `withdraw()` 11 times before the vulnerable balance update fires.
+**[contract-risk-scanner](https://github.com/huichain/contract-risk-scanner)**  
+Lightweight CLI for pattern-based Solidity risk checks. Configurable rules, Markdown-style findings.
 
-Next: a fixed version using checks-effects-interactions + OpenZeppelin's `ReentrancyGuard`.
+- **Live:** `tx.origin` authorization detection
+- **Roadmap:** `delegatecall`, `selfdestruct`, unchecked low-level calls
 
 ---
 
 #### Tech
 
-`Solidity` · `Foundry` · `EVM` · `Python` · `Go` · `C#` · `C++`
+`Solidity` · `Foundry` · `EVM` · `Python` · `Security Research` · `C#` · `C++`
 
 ---
 
