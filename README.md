@@ -12,7 +12,7 @@ Software engineer transitioning into **smart contract security and Web3 tooling*
 
 - Foundry vulnerability modules with exploit PoCs, fixes, and audit-style reports
 - Public repos: [smart-contract-security-lab](https://github.com/huichain/smart-contract-security-lab) and [contract-risk-scanner](https://github.com/huichain/contract-risk-scanner)
-- Current focus: oracle manipulation and expanding static-analysis rules
+- **Current focus:** upgradeable proxy risks (`delegatecall`, unprotected `initialize`, storage layout)
 
 ---
 
@@ -21,15 +21,14 @@ Software engineer transitioning into **smart contract security and Web3 tooling*
 **[smart-contract-security-lab](https://github.com/huichain/smart-contract-security-lab)**  
 Foundry-based vulnerability lab: exploit PoCs, fixes, and audit-style writeups.
 
-- **Done:** Reentrancy · Access Control · Signature Replay (`11` passing tests, `3` reports)
-- **In progress:** Oracle Manipulation (AMM spot-price manipulation PoC)
-- **Planned:** Upgradeable Proxy
+- **Done:** Reentrancy · Access Control · Signature Replay · Oracle Manipulation (`15` tests, `4` reports)
+- **In progress:** Upgradeable Proxy — minimal EIP-1967-style proxy + unprotected `initialize` PoC (`2` tests; `17` total in repo)
+- **Next:** storage layout upgrade bug, fixes, and `reports/05-upgradeable-proxy.md`
 
 **[contract-risk-scanner](https://github.com/huichain/contract-risk-scanner)**  
-Lightweight CLI for pattern-based Solidity risk checks. Configurable rules, Markdown-style findings.
+Lightweight CLI for pattern-based Solidity risk checks (MVP / side project).
 
 - **Live:** `tx.origin` authorization detection
-- **Roadmap:** `delegatecall`, `selfdestruct`, unchecked low-level calls
 
 ---
 
