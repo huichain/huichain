@@ -10,12 +10,10 @@ Software engineer transitioning into **smart contract security and Web3 tooling*
 **Featured Projects**
 
 - [smart-contract-security-lab](https://github.com/huichain/smart-contract-security-lab)  
-  Vulnerability PoCs, fixed implementations, and audit-style reports  
-  (Reentrancy · Access Control · Signature Replay · Oracle Manipulation · Upgradeable Proxy)
+  Learn smart contract security by reproducing vulnerabilities, writing Foundry PoCs, and audit-style reports
 
 - [mini-7575-vault](https://github.com/huichain/mini-7575-vault)  
-  Reduced ERC-7575 settlement-focused implementation  
-  (current baseline: runnable synchronous `deposit/redeem` + boundary tests)
+  A reduced ERC-7575 multi-asset vault — settlement layer with synchronous deposit/redeem
 
 **Tech**
 
