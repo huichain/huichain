@@ -63,8 +63,7 @@ Security research lab — reproducing vulnerabilities, Foundry PoCs, and audit-s
 ![EVM](https://img.shields.io/badge/EVM-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![DeFi](https://img.shields.io/badge/DeFi-627EEA?style=for-the-badge&logo=ethereum&logoColor=white)
 ![RWA](https://img.shields.io/badge/RWA-0F766E?style=for-the-badge&logo=blockchaindotcom&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![Rust](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
 ---
@@ -72,4 +71,3 @@ Security research lab — reproducing vulnerabilities, Foundry PoCs, and audit-s
 ## 📫 Connect
 
 [![X](https://img.shields.io/badge/X-@vividhui-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/vividhui)
-[![GitHub](https://img.shields.io/badge/GitHub-huichain-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/huichain)
