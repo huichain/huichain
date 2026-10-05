@@ -12,7 +12,7 @@ RWA real estate crowdfunding MVP — ERC1155 property shares, invest/refund/reve
 
 ---
 
-### [folio](https://github.com/huichain/folio)
+### 📱 [folio](https://github.com/huichain/folio)
 Sepolia app for that estate contract. It syncs property state and event logs into Postgres, then serves the property list, detail page, and a wallet portfolio.  
 
 ---
