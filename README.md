@@ -1,6 +1,6 @@
 ### Hi, I'm Hui Chan 👋
 
-I build full-stack on-chain products: Solidity on the contract side, and TypeScript apps that index chain data and serve it to users. I previously wrote desktop software in C++ and C#, and the same stack now includes Rust and Solana.
+I focus on Ethereum and Solana. I build full-stack on-chain products: Solidity and Rust on the contract side, and TypeScript apps that index chain data and serve it to users.
 
 ---
 
